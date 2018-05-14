@@ -52,12 +52,12 @@
 
 
 
-section .title{
+.title{
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
 }
-section .title_label{
+.title_label{
     font-size: 1.6rem;
     font-weight: bold;
     width: 180px;
@@ -68,38 +68,26 @@ section .title_label{
     display: inline-block;
     margin-top: 10px;
 }
-.recommend{
-    display: flex;
-    justify-content: flex-start;
-    display: -webkit-flex;
-    -webkit-justify-content:flex-start;
-    margin-top: 56px;
+.left{
+    padding-bottom: 2.8%;
 }
-.recommend>.left{
-    background: #0097ff;
-    width: 336px;
-    padding-top: 8%;
-    padding-bottom: 6%;
-}
-.left>img{
-    width: 90%;
-}
-.left>.left_title{
+
+.left_title{
     display: flex;
     justify-content: center;
     align-items: center;
  }
-.left>.left_title>img{
+.left_title>img{
     width: 20%;
     margin-right: 10px;
 }
-.left>.left_title>div{
+.left_title>div{
     font-size: 3.6rem;
     color: #FFCA12;
     font-weight: bold;
     padding-top: 20px;
 }
-.left>.left_bottom{
+.left_bottom{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -107,8 +95,8 @@ section .title_label{
     -webkit-justify-content:center;
     -webkit-flex-wrap:wrap;
 }
-.left>.left_bottom a:nth-child(1){
-    width: 136px;
+.left_bottom a:nth-child(1){
+    width: 46%;
     height: 40px;
     line-height: 40px;
     text-align: center;
@@ -121,8 +109,8 @@ section .title_label{
     margin-top: 16%;
     font-weight: bold;
 }
-.left>.left_bottom a:nth-child(2){
-    width: 136px;
+.left_bottom a:nth-child(2){
+    width: 46%;
     height: 40px;
     line-height: 40px;
     text-align: center;
@@ -137,15 +125,14 @@ section .title_label{
 
 .right{
     background: #FFFFFF;
-    width: 860px;
     padding-left: 6%;
     padding-right: 6%;
 }
 .right>img{
     max-width: 180px;
     position: absolute;
-    top: 5%;
-    right: -2%;
+    top: -10%;
+    right: 0%;
 }
 .right>header{
     color: #070707;
@@ -157,7 +144,6 @@ section .title_label{
     font-size: 1.8rem;
     color: #070707;
     text-align: left;
-    max-width: 790px;
     padding-left: 10px;
 }
 
@@ -170,7 +156,7 @@ section .title_label{
     -webkit-flex-wrap:wrap;
 }
 .peculiarity>.item_item{
-    margin-top: 6%;
+    margin-top: 2%;
     width: 25%;
     text-align: center;
 }
