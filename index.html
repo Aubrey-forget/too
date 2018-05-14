@@ -573,6 +573,18 @@
 </div>
 
 <script>
+    if (window.innerWidth) {
+        winWidth = window.innerWidth;
+        console.log('++++', winWidth)
+    }
+    else if ((document.body) && (document.body.clientWidth)) {
+        winWidth = document.body.clientWidth;
+    }
+    if (winWidth > 992) {
+        $('.left').css('padding-bottom', '2.8%');
+    }else{
+        $('.left').css('padding-bottom', '12%');
+    }
     window.onresize = resizeBannerImage;//当窗口改变宽度时执行此函数
     function resizeBannerImage() {
         var winW = $(window).width();
