@@ -7,33 +7,43 @@
 }
 .item{
     position: relative;
+    border: 1px solid #E5E5E5;
+    width: 284px;
+    height: 234px;
 }
 .img_item{
-    padding: 90px 29px 82px 48px;
+    /*padding: 90px 29px 82px 48px;*/
     font-size: 1.6rem;
-    border: 1px solid #E5E5E5;
+    /*border: 1px solid #E5E5E5;*/
     display: inline-block;
-    margin-top: 14px;
+    margin-top: 60px;
 }
 .hover{
     font-size: 1.6rem;
     color: #fff;
     background: #0191FF;
     position: absolute;
-    top: 5.5%;
-    padding: 90px 29px 82px 48px;
+    top: 0;
     display: none;
     white-space: nowrap;
+    width: 284px;
+    height: 234px;
+    text-align: center;
 }
 .hover1{
     font-size: 1.6rem;
     color: #fff;
     background: #0191FF;
     position: absolute;
-    top: 5.5%;
-    padding: 90px 33px 82px 48px;
+    top: 0;
     white-space: nowrap;
     display: none;
+    width: 284px;
+    height: 234px;
+    text-align: center;
+}
+.hover1>p:nth-child(1),.hover>p:nth-child(1){
+    margin-top: 30%;
 }
 .item:hover .hover,.item:hover .hover1{
     display: block;
