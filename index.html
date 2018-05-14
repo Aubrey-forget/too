@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">-->
     <title>凸赞官网</title>
     <style>
         html {
@@ -686,9 +686,11 @@
     if (winWidth > 992) {
         $('.left').css('padding-bottom', '2.8%');
         $('#zturn').css('left','58%');
+        $('.left_title>div').css('font-size','3.6rem')
     } else {
         $('.left').css('padding-bottom', '12%');
         $('#zturn').css('left','62%');
+        $('.left_title>div').css('font-size','2.5rem')
     }
     window.onresize = resizeBannerImage;//当窗口改变宽度时执行此函数
     function resizeBannerImage() {
