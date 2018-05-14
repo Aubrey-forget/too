@@ -8,7 +8,7 @@
 .item{
     position: relative;
     border: 1px solid #E5E5E5;
-    width: 284px;
+    width: 100%;
     height: 234px;
 }
 .img_item{
@@ -26,7 +26,7 @@
     top: 0;
     display: none;
     white-space: nowrap;
-    width: 284px;
+    width: 100%;
     height: 234px;
     text-align: center;
 }
@@ -38,7 +38,7 @@
     top: 0;
     white-space: nowrap;
     display: none;
-    width: 284px;
+    width: 100%;
     height: 234px;
     text-align: center;
 }
