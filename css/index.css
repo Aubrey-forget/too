@@ -131,7 +131,7 @@
     max-width: 180px;
     position: absolute;
     top: -10%;
-    right: 0%;
+    right: -4%;
 }
 .right>header{
     color: #070707;
@@ -197,7 +197,7 @@
     height: 40px;
     text-align: center;
     line-height: 40px;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     border-radius: 2px;
     border: 1px solid #dcdcdc;
     background: #FFFFFF;
