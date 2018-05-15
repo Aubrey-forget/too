@@ -349,6 +349,15 @@
     color: #FFFFFF;
     /*border: 1px solid #626262;*/
 }
-#type_list{
-
+.er_item{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;top: 0;
+    display: none;
+}
+.zturn-item:hover>div{
+    background:rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    border-radius: 30px;
 }
