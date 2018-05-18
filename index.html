@@ -691,7 +691,7 @@
 </section>
 
 
-<section id="phone" style="display: block;width: 100%;overflow:hidden;">
+<section id="phone" style="display: none;width: 100%;overflow:hidden;">
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <img style="width: 100%;" src="./imgs/er_01.png"/>
@@ -1276,7 +1276,7 @@
 
 
 <script>
-/*    if (window.innerWidth) {
+    if (window.innerWidth) {
         winWidth = window.innerWidth;
         console.log('++++', winWidth)
     }
@@ -1312,14 +1312,14 @@
         scale: 0.9,
         auto: true,//是否轮播 默认5000
         turning: 5000//轮播时长
-    });*/
-//    if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) { //移动端
-//        $('#web').css('display','none');
-//        $('#phone').css('display','block');
-//    }else{
-//        $('#phone').css('display','none');
-//        $('#web').css('display','block')
-//    }
+    });
+    if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) { //移动端
+        $('#web').css('display','none');
+        $('#phone').css('display','block');
+    }else{
+        $('#phone').css('display','none');
+        $('#web').css('display','block')
+    }
     var list = [
         `<li style="position: relative">
             <img src="./imgs/er_130.png"/>
