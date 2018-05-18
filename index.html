@@ -2,11 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>凸赞官网</title>
-    <style>
-        html {font-size: 62.5%;}
-    </style>
     <link rel="stylesheet" type="text/css" href="./css/index1.css">
     <link rel="stylesheet" type="text/css" href="./css/public.css">
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
@@ -15,7 +12,7 @@
     <script src="./js/zturn.js"></script>
     <script src="./js/index.js"></script>
 </head>
-<body>
+<body style="font-size: 62.5%;">
 <section id="web" style="display: none">
     <div class="header">
         <img style="width: 100%;" src="./imgs/er_01.png" alt=""/>
@@ -1274,24 +1271,24 @@
 
 
 <script>
-    if (window.innerWidth) {
-        winWidth = window.innerWidth;
-        console.log('++++', winWidth)
-    }
-    else if ((document.body) && (document.body.clientWidth)) {
-        winWidth = document.body.clientWidth;
-    }
-    if (winWidth > 992) {
-        $('.left').css('padding-bottom', '3.2%');
-        $('.left').eq(0).css('padding-bottom', '3.2%');
-        $('#zturn').css('left','58%');
-        $('.left_title>div').css('font-size','3.6rem')
-    } else {
-        $('.left').css('padding-bottom', '12%');
-        $('.left').eq(0).css('min-height','454px');
-        $('#zturn').css('left','62%');
-        $('.left_title>div').css({'font-size':'2.2rem','padding-top':'14px'})
-    }
+//    if (window.innerWidth) {
+//        winWidth = window.innerWidth;
+//        console.log('++++', winWidth)
+//    }
+//    else if ((document.body) && (document.body.clientWidth)) {
+//        winWidth = document.body.clientWidth;
+//    }
+//    if (winWidth > 992) {
+//        $('.left').css('padding-bottom', '3.2%');
+//        $('.left').eq(0).css('padding-bottom', '3.2%');
+//        $('#zturn').css('left','58%');
+//        $('.left_title>div').css('font-size','3.6rem')
+//    } else {
+//        $('.left').css('padding-bottom', '12%');
+//        $('.left').eq(0).css('min-height','454px');
+//        $('#zturn').css('left','62%');
+//        $('.left_title>div').css({'font-size':'2.2rem','padding-top':'14px'})
+//    }
     window.onresize = resizeBannerImage;//当窗口改变宽度时执行此函数
     function resizeBannerImage() {
         var winW = $(window).width();
@@ -1302,15 +1299,15 @@
             $('.left').css('padding-bottom', '12%');
         }
     }
-    var aa = new zturn({
-        id: "zturn",
-        opacity: 0.9,
-        width: 382,
-        Awidth: 800,
-        scale: 0.9,
-        auto: true,//是否轮播 默认5000
-        turning: 5000//轮播时长
-    });
+//    var aa = new zturn({
+//        id: "zturn",
+//        opacity: 0.9,
+//        width: 382,
+//        Awidth: 800,
+//        scale: 0.9,
+//        auto: true,//是否轮播 默认5000
+//        turning: 5000//轮播时长
+//    });
     if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) { //移动端
         $('#web').css('display','none');
         $('#phone').css('display','block');
