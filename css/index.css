@@ -192,7 +192,7 @@
     -webkit-flex-wrap:wrap;
     padding-bottom: 60px;
 }
-.more .more_item{
+.more_item{
     width: 12%;
     height: 40px;
     text-align: center;
@@ -205,7 +205,7 @@
     margin-top: 32px;
     cursor: pointer;
 }
-.more .selected{
+.selected{
     background: #0191FF;
     color: #FFFFFF;
     border: 1px solid #0191FF;
@@ -216,6 +216,36 @@
     color: #FFFFFF;
     border: 1px solid #0191FF;
 }
+.more_items{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid #dcdcdc;
+    background: #FFFFFF;
+    margin-right: 4%;
+    width: 20%;
+    margin-top: 2%;
+    color: #000;
+}
+.more_items:nth-of-type(4n){
+    margin-right: 0;
+}
+.more_items:hover{
+    background: #0191FF;
+    color: #FFFFFF;
+    border: 1px solid #0191FF;
+}
+
+.selected{
+    background: #0191FF;
+    color: #FFFFFF;
+    border: 1px solid #0191FF;
+    cursor: pointer;
+}
+
 .header1{
     margin-top: 10%
 }
@@ -356,8 +386,89 @@
     left: 0;top: 0;
     display: none;
 }
-.zturn-item:hover>div{
+.zturn-item:hover>div,#box_pics li:hover div{
     background:rgba(0, 0, 0, 0.5);
     display: inline-block;
     border-radius: 30px;
+}
+
+
+.money_bottom{
+    background: #0191FF;
+    position: relative;
+    width: 100%;
+    padding: 14px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.money_bottom a{
+    width: 150px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 2rem;
+}
+.money_bottom a:nth-child(1){
+    background: #FFCA12;
+    color: #0F0F0F;
+    margin-right: 14px;
+}
+.money_bottom a:nth-child(2){
+    background: #fff;
+    color: #000;
+}
+.money_bottom img{
+    position: absolute;
+    right: 17%;
+    bottom: 16%;
+}
+
+/*.hov{
+    position: relative;
+    width: 300px;
+    height: 670px;
+    display: inline-block;
+}
+.hov img{
+    width: 300px;
+}
+
+@keyframes myfirst
+{
+    from {
+        transform:rotateY(0deg);
+        opacity: 1;
+    }
+    to {
+        transform:rotateY(180deg);
+        opacity: 0;
+    }
+}
+@keyframes myfirst1
+{
+    from {
+        transform:rotateY(-180deg);
+        opacity: 0;
+    }
+    to {
+        transform:rotateY(0deg);
+        opacity: 1;
+    }
+}
+.hov:hover img:nth-child(1){
+    animation: myfirst 1s;
+}
+.hov:hover img:nth-child(2){
+    animation: myfirst1 1s
+}*/
+#box_pics{
+    display: flex;
+    justify-content: flex-start;
+}
+#box_pics li{
+    width: 300px;
+}
+#box_pics li img{
+    width: 100%;
 }
