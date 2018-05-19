@@ -218,9 +218,9 @@
 }
 .more_items{
     text-align: center;
-    height: 40px;
-    line-height: 40px;
-    font-size: 2rem;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1.2rem;
     cursor: pointer;
     border-radius: 2px;
     border: 1px solid #dcdcdc;
